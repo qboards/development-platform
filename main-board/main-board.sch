@@ -61,34 +61,25 @@ $EndComp
 $Comp
 L power:VBUS #PWR020
 U 1 1 5EC01C76
-P 7150 4500
-F 0 "#PWR020" H 7150 4350 50  0001 C CNN
-F 1 "VBUS" H 7165 4673 50  0000 C CNN
-F 2 "" H 7150 4500 50  0001 C CNN
-F 3 "" H 7150 4500 50  0001 C CNN
-	1    7150 4500
+P 7950 4200
+F 0 "#PWR020" H 7950 4050 50  0001 C CNN
+F 1 "VBUS" H 7965 4373 50  0000 C CNN
+F 2 "" H 7950 4200 50  0001 C CNN
+F 3 "" H 7950 4200 50  0001 C CNN
+	1    7950 4200
 	1    0    0    -1  
 $EndComp
 $Comp
 L Device:R_Small R8
 U 1 1 5EC02B36
-P 7350 4750
-F 0 "R8" V 7450 4750 50  0000 C CNN
-F 1 "R_Small" V 7550 4750 50  0000 C CNN
-F 2 "Resistor_SMD:R_0805_2012Metric_Pad1.15x1.40mm_HandSolder" H 7350 4750 50  0001 C CNN
-F 3 "~" H 7350 4750 50  0001 C CNN
-	1    7350 4750
-	0    1    1    0   
+P 7950 4400
+F 0 "R8" V 8050 4400 50  0000 C CNN
+F 1 "R_Small" V 8150 4400 50  0000 C CNN
+F 2 "Resistor_SMD:R_0805_2012Metric_Pad1.15x1.40mm_HandSolder" H 7950 4400 50  0001 C CNN
+F 3 "~" H 7950 4400 50  0001 C CNN
+	1    7950 4400
+	-1   0    0    1   
 $EndComp
-Wire Wire Line
-	7250 4750 7150 4750
-Wire Wire Line
-	7150 4750 7150 4650
-Wire Wire Line
-	7550 4650 7150 4650
-Connection ~ 7150 4650
-Wire Wire Line
-	7150 4650 7150 4500
 $Comp
 L Connector:TestPoint TP_5V1
 U 1 1 5EC1557E
@@ -1010,7 +1001,7 @@ Wire Wire Line
 Connection ~ 1850 2700
 Wire Wire Line
 	8550 2650 8700 2650
-Text Notes 7600 4250 0    50   ~ 0
+Text Notes 8400 4250 0    50   ~ 0
 BUTTON_LEVEL\n
 Wire Wire Line
 	5700 2600 5700 4200
@@ -1177,84 +1168,31 @@ F10 "LED_GND" I L 1550 10500 50
 F11 "BTN_LEVEL" I L 1550 10600 50 
 $EndSheet
 Wire Wire Line
-	7450 4750 7550 4750
-$Comp
-L Connector_Generic:Conn_02x02_Odd_Even J4
-U 1 1 5EFA3046
-P 7750 4650
-F 0 "J4" H 7800 4850 50  0000 C CNN
-F 1 "PULLUP_SEL" H 7800 4750 50  0000 C CNN
-F 2 "Connector_PinHeader_2.54mm:PinHeader_2x02_P2.54mm_Vertical" H 7750 4650 50  0001 C CNN
-F 3 "~" H 7750 4650 50  0001 C CNN
-	1    7750 4650
-	1    0    0    -1  
-$EndComp
-Wire Wire Line
-	8050 4750 8150 4750
-Wire Wire Line
-	8150 4750 8150 4700
-Wire Wire Line
-	8150 4650 8050 4650
-Wire Wire Line
 	8150 4700 8250 4700
-Connection ~ 8150 4700
-Wire Wire Line
-	8150 4700 8150 4650
 $Comp
 L Device:R_Small R9
 U 1 1 5F023CFC
-P 7350 5200
-F 0 "R9" V 7450 5200 50  0000 C CNN
-F 1 "R_Small" V 7550 5200 50  0000 C CNN
-F 2 "Resistor_SMD:R_0805_2012Metric_Pad1.15x1.40mm_HandSolder" H 7350 5200 50  0001 C CNN
-F 3 "~" H 7350 5200 50  0001 C CNN
-	1    7350 5200
-	0    1    1    0   
+P 7950 5500
+F 0 "R9" V 8050 5500 50  0000 C CNN
+F 1 "R_Small" V 8150 5500 50  0000 C CNN
+F 2 "Resistor_SMD:R_0805_2012Metric_Pad1.15x1.40mm_HandSolder" H 7950 5500 50  0001 C CNN
+F 3 "~" H 7950 5500 50  0001 C CNN
+	1    7950 5500
+	-1   0    0    1   
 $EndComp
-Wire Wire Line
-	7250 5200 7150 5200
-Wire Wire Line
-	7150 5200 7150 5100
-Wire Wire Line
-	7550 5100 7150 5100
-Wire Wire Line
-	7450 5200 7550 5200
-$Comp
-L Connector_Generic:Conn_02x02_Odd_Even J6
-U 1 1 5F023D08
-P 7750 5100
-F 0 "J6" H 7800 5300 50  0000 C CNN
-F 1 "PULLDN_SEL" H 7800 5226 50  0000 C CNN
-F 2 "Connector_PinHeader_2.54mm:PinHeader_2x02_P2.54mm_Vertical" H 7750 5100 50  0001 C CNN
-F 3 "~" H 7750 5100 50  0001 C CNN
-	1    7750 5100
-	1    0    0    -1  
-$EndComp
-Wire Wire Line
-	8050 5200 8150 5200
-Wire Wire Line
-	8150 5200 8150 5150
-Wire Wire Line
-	8150 5100 8050 5100
 Wire Wire Line
 	8150 5150 8250 5150
-Connection ~ 8150 5150
-Wire Wire Line
-	8150 5150 8150 5100
 $Comp
 L power:GND #PWR024
 U 1 1 5F039AC0
-P 7150 5400
-F 0 "#PWR024" H 7150 5150 50  0001 C CNN
-F 1 "GND" H 7155 5227 50  0000 C CNN
-F 2 "" H 7150 5400 50  0001 C CNN
-F 3 "" H 7150 5400 50  0001 C CNN
-	1    7150 5400
+P 7950 5700
+F 0 "#PWR024" H 7950 5450 50  0001 C CNN
+F 1 "GND" H 7955 5527 50  0000 C CNN
+F 2 "" H 7950 5700 50  0001 C CNN
+F 3 "" H 7950 5700 50  0001 C CNN
+	1    7950 5700
 	1    0    0    -1  
 $EndComp
-Wire Wire Line
-	7150 5400 7150 5200
-Connection ~ 7150 5200
 $Comp
 L Connector_Generic:Conn_02x05_Odd_Even J3
 U 1 1 5F0C950A
@@ -2283,4 +2221,49 @@ Wire Wire Line
 	13050 5050 13250 5050
 Wire Wire Line
 	13800 7900 13800 8100
+$Comp
+L Connector_Generic:Conn_02x03_Odd_Even J4
+U 1 1 5EF9E8B7
+P 7850 4900
+F 0 "J4" V 7854 5080 50  0000 L CNN
+F 1 "Conn_02x03_Top_Bottom" V 7945 5080 50  0000 L CNN
+F 2 "Connector_PinHeader_2.54mm:PinHeader_2x03_P2.54mm_Vertical" H 7850 4900 50  0001 C CNN
+F 3 "~" H 7850 4900 50  0001 C CNN
+	1    7850 4900
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	8150 5150 8150 5300
+Wire Wire Line
+	8150 5300 7850 5300
+Wire Wire Line
+	7850 5300 7850 5200
+Wire Wire Line
+	8150 4700 8150 4600
+Wire Wire Line
+	8150 4600 7850 4600
+Wire Wire Line
+	7850 4600 7850 4700
+Wire Wire Line
+	7950 5400 7950 5200
+Wire Wire Line
+	7950 4500 7950 4700
+Wire Wire Line
+	7950 5600 7950 5650
+Wire Wire Line
+	7950 5650 7750 5650
+Wire Wire Line
+	7750 5200 7750 5650
+Connection ~ 7950 5650
+Wire Wire Line
+	7950 5650 7950 5700
+Wire Wire Line
+	7950 4200 7950 4250
+Wire Wire Line
+	7950 4250 7750 4250
+Wire Wire Line
+	7750 4250 7750 4700
+Connection ~ 7950 4250
+Wire Wire Line
+	7950 4250 7950 4300
 $EndSCHEMATC

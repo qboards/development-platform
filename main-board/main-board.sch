@@ -2132,17 +2132,6 @@ Wire Wire Line
 	13700 9450 13900 9450
 Wire Wire Line
 	13900 9450 13900 9400
-$Comp
-L Mechanical:MountingHole_Pad H6
-U 1 1 5EEB7F4E
-P 14100 9300
-F 0 "H6" H 14200 9303 50  0001 L CNN
-F 1 "MountingHole_Pad" H 14200 9258 50  0001 L CNN
-F 2 "MountingHole:MountingHole_3.2mm_M3_ISO14580_Pad" H 14100 9300 50  0001 C CNN
-F 3 "~" H 14100 9300 50  0001 C CNN
-	1    14100 9300
-	1    0    0    -1  
-$EndComp
 Wire Wire Line
 	13900 9450 14100 9450
 Wire Wire Line
@@ -2266,4 +2255,33 @@ Wire Wire Line
 Connection ~ 7950 4250
 Wire Wire Line
 	7950 4250 7950 4300
+$Comp
+L Mechanical:MountingHole_Pad H6
+U 1 1 5EEB7F4E
+P 14100 9300
+F 0 "H6" H 14200 9303 50  0001 L CNN
+F 1 "MountingHole_Pad" H 14200 9258 50  0001 L CNN
+F 2 "MountingHole:MountingHole_3.2mm_M3_ISO14580_Pad" H 14100 9300 50  0001 C CNN
+F 3 "~" H 14100 9300 50  0001 C CNN
+	1    14100 9300
+	1    0    0    -1  
+$EndComp
+$Comp
+L Mechanical:MountingHole_Pad H7
+U 1 1 5EFCB2A1
+P 14300 9300
+F 0 "H7" H 14400 9303 50  0001 L CNN
+F 1 "MountingHole_Pad" H 14400 9258 50  0001 L CNN
+F 2 "MountingHole:MountingHole_3.2mm_M3_ISO14580_Pad" H 14300 9300 50  0001 C CNN
+F 3 "~" H 14300 9300 50  0001 C CNN
+	1    14300 9300
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	14100 9450 14300 9450
+Wire Wire Line
+	14300 9450 14300 9400
+Connection ~ 14100 9450
+Connection ~ 13900 9450
+Connection ~ 13700 9450
 $EndSCHEMATC

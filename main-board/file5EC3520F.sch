@@ -5,11 +5,11 @@ EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
 Sheet 5 6
-Title ""
-Date ""
-Rev ""
-Comp ""
-Comment1 ""
+Title "Modular dev board"
+Date "2020-11-30"
+Rev "v1.0"
+Comp "QBoards"
+Comment1 "Wilco Tomassen"
 Comment2 ""
 Comment3 ""
 Comment4 ""

@@ -59,7 +59,15 @@ ground rail test points are supplied.
 
 ## Communication
 
-> TODO
+There are four serial ports that modules can expose, one fully featured (TX, RX, 
+DTR, CTS, RTS) and three basic (TX, RX only). The development board has a single
+USB to serial UART interface (FTDI FT232RL) connected to the USB input and the
+other end can be connected with the jumper interfaces to any of the four serial
+connections to the development module.
+
+> TODO: Add image of communication jumpers
+
+There are two LED indicators for TX and RX activity.
 
 ## Port modules
 

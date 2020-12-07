@@ -1,0 +1,39 @@
+Ref,Qnty,Value,Manufacturer,Manufacturer part nr,Package,Part,Farnell #
+C1,1,100uF,MULTICOMP PRO,MCVKZ010M101FB3L,6.3x5.7,Polarized SMD capacitor,2611328
+C2,1,1000uF,MULTICOMP PRO,MCVVT6R3M102FB3L,8x5.7,Polarized SMD capacitor,2611416
+"C3, C4",2,22uF,MULTICOMP PRO,MCVVT063M220FB3L,6.3x5.7,Polarized SMD capacitor,2611407
+C5,1,10uF,,,0805,Unpolarized SMD capacitor,
+"C6, C7",2,100nF,,,0805,Unpolarized SMD capacitor,
+"D1, D2, D3, D4",4,1N4007,,,SMA,"Diode, small symbol",
+D5,1,,DIODES INC.,ZLLS400TA,0805,Small Signal Schottky Diode,3127494
+"D6, D7, D8, D9, D10, D11, D12, D13, D14, D15, D16, D17, D18, D19, D20, D21, D22, D23, D24, D25, D26, D27, D28, D29, D30, D31, D32, D33, D34, D35, D36, D37, RX1, TX1",34,,KINGBRIGHT,KP-2012LSGC,0805,Low power SMD LED,2463991
+D38,1,,KINGBRIGHT,KP-2012LSGC,0805,Low power SMD LED,2463991
+F1,1,500mA,BOURNS,MF-PSMF050X-2,0805,"Resettable fuse, polymeric positive temperature coefficient",1294876
+J1,1,,,,,"Pin header, 2.54mm, 1 row, 3 contacts",
+J2,1,,,,,"Pin header, 2.54mm, 1 row, 6 contacts",
+J3,1,,,,,"Pin header, 2.54mm, 2 rows, 10 contacts",
+J4,1,,,,,"Pin header, 2.54mm, 2 rows, 6 contacts",
+J5,1,,,,,"Pin header, 2.54mm, 1 row, 3 contacts",
+"J7, J8, J9, J10, J11, J12, J13, J14, J15",9,,,,,"Pin header, 2.54mm, 2 rows, 10 contacts",
+J16,1,,,,,"Pin header, 2.54mm, 1 row, 3 contacts",
+J17,1,,KITRONIK,5601B,,Edge Connector (BBC micro:bit compatible),2563845
+J18,1,,CLIFF ELECTRONIC COMPONENTS,FC68148,,"DC Barrel Jack Power Connector, 2.1mm",224959
+J19,1,,,,,"Screw terminal, 1 row, 2 contacts",
+J20,1,,,,,"Pin header, 2.54mm, 1 row, 3 contacts",
+J21,1,,,,,"Pin header, 2.54mm, 1 row, 6 contacts",
+L1,1,100uH,WURTH ELEKTRONIK,74404086101,,Power Inductor (SMD),2842174
+"R2, R6, R7",3,1K,,,0805,SMD resistor,
+"R3, R4, R5",3,10K,,,0805,SMD resistor,
+"R8, R9",2,,,,0805,SMD resistor,
+"R10, R11, R12, R13, R14, R15, R16, R17, R18, R19, R20, R21, R22, R23, R24, R25, R26, R27, R28, R29, R30, R31, R32, R33, R34, R35, R36, R37, R38, R39, R40, R41",32,10k,,,0805,SMD resistor,
+SW1,1,,SCHURTER,1301.9303,,"Through hole tactile switch, 6mm",1217774
+SW2,1,,ALCOSWITCH - TE CONNECTIVITY,TDS04SGNNTU04,,"DIP / SIP Switch, Raised Type, 4 Circuits, SP3T",2792778
+SW3,1,,ALCOSWITCH - TE CONNECTIVITY,EDS04SGNNTU04Q,,"DIP / SIP Switch, Raised Type, 4 Circuits, SPST",2792676
+"SW4, SW5, SW6, SW7, SW8, SW9, SW10, SW11, SW13, SW14, SW15, SW16, SW17, SW18, SW19, SW20, SW22, SW23, SW24, SW25, SW26, SW27, SW28, SW29, SW31, SW32, SW33, SW34, SW35, SW36, SW37, SW38",32,,SCHURTER,1301.9303,,"Through hole tactile switch, 6mm",1217774
+"SW12, SW21, SW30, SW39",4,,ALCOSWITCH - TE CONNECTIVITY,TDS08SGNNTU04,,"DIP / SIP Switch, Raised Type, 8 Circuits, SP3T",2792779
+SW41,1,,C & K COMPONENTS,OS102011MA1QN1,,"Slide Switch, SPDT, On-On, Through Hole",1201431
+U1,1,,TEXAS INSTRUMENTS,LM2576HVS-5.0/NOPB,TO-263-5,"Buck (Step Down) Switching Regulator, Fixed, 4V-60V In, 5V And 3A Out, 52 kHz",2382943
+U2,1,AP1117-33,DIODES INC.,AP1117E33G-13,SOT-223-3,"1A Low Dropout regulator, positive, 3.3V fixed output, SOT-223",1825291
+U3,1,AP1117-18,DIODES INC.,AP1117E18G-13,SOT-223-3,"1A Low Dropout regulator, positive, 1.8V fixed output, SOT-223",1825289
+U4,1,FT232RL,FTDI,FT232RL,SSOP-28,"USB to Serial Interface, SSOP-28",1146032
+USB_1,1,,,,,USB Type B connector,

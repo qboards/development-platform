@@ -1,4 +1,5 @@
 EESchema Schematic File Version 4
+LIBS:modboard-attiny-dip8-cache
 EELAYER 29 0
 EELAYER END
 $Descr A4 11693 8268
@@ -235,18 +236,16 @@ $EndComp
 $Comp
 L power:GND #PWR06
 U 1 1 5F91ED28
-P 3400 2700
-F 0 "#PWR06" H 3400 2450 50  0001 C CNN
-F 1 "GND" H 3405 2527 50  0000 C CNN
-F 2 "" H 3400 2700 50  0001 C CNN
-F 3 "" H 3400 2700 50  0001 C CNN
-	1    3400 2700
+P 3750 3800
+F 0 "#PWR06" H 3750 3550 50  0001 C CNN
+F 1 "GND" H 3755 3627 50  0000 C CNN
+F 2 "" H 3750 3800 50  0001 C CNN
+F 3 "" H 3750 3800 50  0001 C CNN
+	1    3750 3800
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
-	3950 2550 3400 2550
-Wire Wire Line
-	3400 2550 3400 2700
+	3950 2550 3750 2550
 Wire Wire Line
 	7000 2750 7000 3400
 Connection ~ 7000 3400
@@ -267,10 +266,10 @@ Wire Wire Line
 	7000 2450 7000 2350
 Text GLabel 7000 3600 3    50   Input ~ 0
 RESET
-Text GLabel 3750 2450 0    50   Input ~ 0
+Text GLabel 3600 2450 0    50   Input ~ 0
 RESET
 Wire Wire Line
-	3950 2450 3750 2450
+	3950 2450 3600 2450
 Text GLabel 7200 3600 3    50   Input ~ 0
 MISO
 Text GLabel 7300 3600 3    50   Input ~ 0
@@ -279,13 +278,13 @@ Text GLabel 7100 3600 3    50   Input ~ 0
 SCK
 Wire Wire Line
 	7000 3400 7000 3600
-Text GLabel 3550 3300 0    50   Input ~ 0
+Text GLabel 3550 3600 0    50   Input ~ 0
 MISO
-Text GLabel 3550 3450 0    50   Input ~ 0
+Text GLabel 3600 2800 0    50   Input ~ 0
 MOSI
-Text GLabel 3500 3600 0    50   Input ~ 0
+Text GLabel 3550 3400 0    50   Input ~ 0
 SCK
-Text GLabel 3500 3750 0    50   Input ~ 0
+Text GLabel 3550 3200 0    50   Input ~ 0
 RESET
 Wire Wire Line
 	7100 3600 7100 3100
@@ -407,7 +406,7 @@ U 1 1 5F933F84
 P 2600 1700
 F 0 "J2" H 2708 1981 50  0000 C CNN
 F 1 "Conn_01x03_Male" H 2708 1890 50  0000 C CNN
-F 2 "Connector_PinSocket_2.54mm:PinSocket_1x03_P2.54mm_Vertical" H 2600 1700 50  0001 C CNN
+F 2 "Connector_PinHeader_2.54mm:PinHeader_1x03_P2.54mm_Vertical" H 2600 1700 50  0001 C CNN
 F 3 "~" H 2600 1700 50  0001 C CNN
 	1    2600 1700
 	1    0    0    -1  
@@ -447,4 +446,36 @@ Wire Wire Line
 	2800 1700 3250 1700
 Wire Wire Line
 	3250 1700 3250 1350
+NoConn ~ 3950 2900
+NoConn ~ 3950 3000
+Wire Wire Line
+	3950 3700 3750 3700
+Connection ~ 3750 3700
+Wire Wire Line
+	3750 3700 3750 3800
+Wire Wire Line
+	3950 3100 3750 3100
+Wire Wire Line
+	3750 2550 3750 3100
+Connection ~ 3750 3100
+Wire Wire Line
+	3750 3100 3750 3300
+Wire Wire Line
+	3950 3300 3750 3300
+Connection ~ 3750 3300
+Wire Wire Line
+	3750 3300 3750 3500
+Wire Wire Line
+	3950 3500 3750 3500
+Connection ~ 3750 3500
+Wire Wire Line
+	3750 3500 3750 3700
+Wire Wire Line
+	3950 2800 3600 2800
+Wire Wire Line
+	3950 3200 3550 3200
+Wire Wire Line
+	3950 3400 3550 3400
+Wire Wire Line
+	3950 3600 3550 3600
 $EndSCHEMATC

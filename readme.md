@@ -73,6 +73,18 @@ There are two LED indicators for TX and RX activity.
 
 > TODO
 
-## Programming
+## In Circuit Programming (ICP)
 
-> TODO
+| ICP Pin | AVR Function |
+|---------|--------------|
+|       1 | MOSI         |
+|       2 | VCC (VBUS)   |
+|       3 | Unused (NC)  |
+|       4 | GND          |
+|       5 | RESET        |
+|       6 | GND          |
+|       7 | SCK          |
+|       8 | GND          |
+|       9 | MISO         |
+|      10 | GND          |
+

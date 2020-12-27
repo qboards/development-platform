@@ -478,4 +478,28 @@ Wire Wire Line
 	3950 3400 3550 3400
 Wire Wire Line
 	3950 3600 3550 3600
+$Comp
+L Mechanical:MountingHole_Pad H1
+U 1 1 5FE8ED86
+P 9650 4700
+F 0 "H1" H 9750 4749 50  0000 L CNN
+F 1 "MountingHole_Pad" H 9750 4658 50  0000 L CNN
+F 2 "MountingHole:MountingHole_3.2mm_M3_ISO7380_Pad" H 9650 4700 50  0001 C CNN
+F 3 "~" H 9650 4700 50  0001 C CNN
+	1    9650 4700
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR?
+U 1 1 5FE8F08B
+P 9650 4850
+F 0 "#PWR?" H 9650 4600 50  0001 C CNN
+F 1 "GND" H 9655 4677 50  0000 C CNN
+F 2 "" H 9650 4850 50  0001 C CNN
+F 3 "" H 9650 4850 50  0001 C CNN
+	1    9650 4850
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	9650 4800 9650 4850
 $EndSCHEMATC

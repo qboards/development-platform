@@ -10,6 +10,12 @@
   )
 
   (page A4)
+  (title_block
+    (title ATmega-Dip28)
+    (rev 1.0)
+    (company QBoards)
+  )
+
   (layers
     (0 F.Cu signal)
     (31 B.Cu signal)
@@ -17,9 +23,9 @@
     (33 F.Adhes user hide)
     (34 B.Paste user hide)
     (35 F.Paste user hide)
-    (36 B.SilkS user hide)
+    (36 B.SilkS user)
     (37 F.SilkS user hide)
-    (38 B.Mask user)
+    (38 B.Mask user hide)
     (39 F.Mask user hide)
     (40 Dwgs.User user hide)
     (41 Cmts.User user hide)
@@ -86,9 +92,9 @@
       (subtractmaskfromsilk false)
       (outputformat 1)
       (mirror false)
-      (drillshape 1)
+      (drillshape 0)
       (scaleselection 1)
-      (outputdirectory ""))
+      (outputdirectory "gerbers/"))
   )
 
   (net 0 "")
@@ -158,7 +164,7 @@
 
   (module qboards_aesthetics:logo_url-3mm (layer B.Cu) (tedit 5CF579B1) (tstamp 5FEF7E07)
     (at 126.6 71.3 270)
-    (fp_text reference ATmega-DIP28 (at 2.4384 0.4572 90) (layer B.SilkS)
+    (fp_text reference "ATmega-DIP28 | Rev 1.0" (at 2.4384 0.4572 90) (layer B.SilkS)
       (effects (font (size 0.6 0.6) (thickness 0.1)) (justify left mirror))
     )
     (fp_text value LOGO_BRD_REF (at 0 -2.3622 90) (layer B.SilkS) hide
@@ -1295,7 +1301,7 @@
   (segment (start 143 115.2) (end 143 110.7) (width 0.3048) (layer F.Cu) (net 27))
   (segment (start 143 110.7) (end 145.62 108.08) (width 0.3048) (layer F.Cu) (net 27))
 
-  (zone (net 1) (net_name GND) (layer B.Cu) (tstamp 0) (hatch edge 0.508)
+  (zone (net 1) (net_name GND) (layer B.Cu) (tstamp 5FEF8670) (hatch edge 0.508)
     (connect_pads (clearance 0.508))
     (min_thickness 0.254)
     (fill yes (arc_segments 32) (thermal_gap 0.508) (thermal_bridge_width 0.508))
@@ -1651,7 +1657,7 @@
       )
     )
   )
-  (zone (net 1) (net_name GND) (layer F.Cu) (tstamp 0) (hatch edge 0.508)
+  (zone (net 1) (net_name GND) (layer F.Cu) (tstamp 5FEF866D) (hatch edge 0.508)
     (connect_pads (clearance 0.508))
     (min_thickness 0.254)
     (fill yes (arc_segments 32) (thermal_gap 0.508) (thermal_bridge_width 0.508))

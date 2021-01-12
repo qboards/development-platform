@@ -7,7 +7,7 @@ encoding utf-8
 Sheet 1 6
 Title "Modular dev board"
 Date "2020-11-30"
-Rev "v1.0"
+Rev "1.1"
 Comp "QBoards"
 Comment1 "Wilco Tomassen"
 Comment2 ""

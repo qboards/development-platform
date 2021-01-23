@@ -1177,7 +1177,7 @@ U 1 1 5F0C950A
 P 3450 8050
 F 0 "J3" H 3500 8450 50  0000 C CNN
 F 1 "ICSP" H 3500 8350 50  0000 C CNN
-F 2 "Connector_PinHeader_2.54mm:PinHeader_2x05_P2.54mm_Vertical" H 3450 8050 50  0001 C CNN
+F 2 "Connector_IDC:IDC-Header_2x05_P2.54mm_Vertical" H 3450 8050 50  0001 C CNN
 F 3 "~" H 3450 8050 50  0001 C CNN
 	1    3450 8050
 	1    0    0    -1  
